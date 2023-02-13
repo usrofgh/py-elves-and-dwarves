@@ -15,6 +15,8 @@ class Druid(Elf):
         return len(self._favourite_spell)
 
     def player_info(self) -> str:
-        return f"Druid {self.nickname}. " \
-               f"{self.nickname} has a " \
-               f"favourite spell: {self._favourite_spell}"
+        return (
+            f"Druid {self.nickname}. "
+            f"{self.nickname} has a "
+            f"favourite spell: {self._favourite_spell}"
+        )
